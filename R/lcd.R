@@ -109,7 +109,7 @@ lcd_GET_write <- function(url, path, overwrite = TRUE, ...) {
 }
 
 lcd_base <- function() {
-  "https://www.ncei.noaa.gov/data/local-climatological-data/v2/access"
+  "https://www.ncei.noaa.gov/oa/local-climatological-data/v2/access"
 }
 
 lcd_key <- function(station, year) {
